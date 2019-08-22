@@ -5,4 +5,11 @@ class Anagram
   def initialize(word)
     @word = word
   end
+
+  def match
+    if @word == @word.reverse
+      @word.reverse
+    else
+      []
+  end
 end
