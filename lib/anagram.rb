@@ -10,8 +10,6 @@ class Anagram
     string.find_all do |word|
       if word.split(" ").sort == @supplied_word.split(" ").sort
         word
-      else
-        []
       end
     end
   end
