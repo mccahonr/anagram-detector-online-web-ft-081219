@@ -11,5 +11,6 @@ class Anagram
       @word.reverse
     else
       []
+    end
   end
 end
